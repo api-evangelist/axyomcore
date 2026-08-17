@@ -1,0 +1,56 @@
+name: AxyomCore
+description: >-
+  Telecom infrastructure software vendor, styled Axyom.Core, supplying cloud-native 4G and 5G mobile
+  core and RAN network functions (CNFs) that run inside communications service provider networks.
+  Product lines cover 4G core, Femto core, security gateway, RAN and full-MVNO deployments, with
+  Red Hat OpenShift support. Part of Lumine Group following a carve-out from Casa Systems.
+  NO PUBLIC API SURFACE: the company sells into operator networks through RFP and direct
+  engagement, and publishes no developer portal, API documentation, or machine-readable contract.
+  That is an absence of a PUBLIC interface, not an absence of APIs — mobile core network functions
+  are API-driven by construction, but those interfaces reach customers under operator contracts
+  rather than a public developer program.
+url: https://raw.githubusercontent.com/api-evangelist/axyomcore/refs/heads/main/apis.yml
+created: '2026-08-17'
+modified: '2026-08-17'
+specificationVersion: '0.21'
+tags:
+  - Telecommunications
+  - 5G Core
+  - 4G/LTE Core
+  - RAN
+  - Mobile Network Functions
+  - Cloud-Native
+  - Kubernetes
+  - MVNO
+  - Network Security
+  - Telco Infrastructure
+apis: []
+common:
+  - type: Website
+    url: https://axyomcore.ai
+  - type: About
+    url: https://axyomcore.ai/about-us
+  - type: Support
+    url: https://axyomcore.ai/contact-us
+  - type: Blog
+    url: https://axyomcore.ai/en/news-insights
+maintainers:
+  - FN: AxyomCore
+    url: https://axyomcore.ai
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 2
+  at: '2026-08-17T16:14:07.521Z'
+x-review:
+  reviewed: '2026-08-17'
+  reviewed_by: Kin Lane
+  decision: listed
+  note: >-
+    Parked by the intake gate as no_consumable_surface. Listed anyway on the standing rule that a
+    valid company on a domain it owns gets a listing and a low score, because the score is what
+    gives a vendor something to improve against. Roughly half the catalog carries no apis[] entry.
+    Verified 2026-08-17: axyomcore.ai and axyomcore.com both resolve and are owned by the company;
+    the advertised apis.json 404s; developer., docs. and api. subdomains do not resolve; the word
+    "api" appears zero times on the homepage; the site is HubSpot-built with a Submit RFP call to
+    action. No contract was invented to fill the gap.
