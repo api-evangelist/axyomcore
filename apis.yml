@@ -12,7 +12,7 @@ description: >-
 url: https://raw.githubusercontent.com/api-evangelist/axyomcore/refs/heads/main/apis.yml
 created: '2026-08-17'
 modified: '2026-08-17'
-specificationVersion: '0.21'
+specificationVersion: '0.23'
 tags:
   - Telecommunications
   - 5G Core
