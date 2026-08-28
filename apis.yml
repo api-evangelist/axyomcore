@@ -10,6 +10,17 @@ description: >-
   are API-driven by construction, but those interfaces reach customers under operator contracts
   rather than a public developer program.
 url: https://raw.githubusercontent.com/api-evangelist/axyomcore/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 created: '2026-08-17'
 modified: '2026-08-17'
 specificationVersion: '0.23'
