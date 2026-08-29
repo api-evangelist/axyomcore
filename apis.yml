@@ -10,6 +10,9 @@ description: >-
   are API-driven by construction, but those interfaces reach customers under operator contracts
   rather than a public developer program.
 url: https://raw.githubusercontent.com/api-evangelist/axyomcore/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "NO PUBLIC API SURFACE: the company sells into operator networks through RFP and direct engagement, and publishes no developer portal, API documentation, or machine-readable contract."
 deliveryModel:
   model: unknown
   open_source: false
