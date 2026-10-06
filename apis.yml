@@ -25,7 +25,7 @@ deliveryModel:
   generated: '2026-08-28'
   method: derived
 created: '2026-08-17'
-modified: '2026-08-17'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 tags:
   - Telecommunications
@@ -40,6 +40,10 @@ tags:
   - Telco Infrastructure
 apis: []
 common:
+  - url: https://axyomcore.ai/en/news-insights/tag/news
+    type: Blog
+  - url: https://axyomcore.ai/en/news-insights/rss.xml
+    type: BlogRSS
   - type: Website
     url: https://axyomcore.ai
   - type: About
