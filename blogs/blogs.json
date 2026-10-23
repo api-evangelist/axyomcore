@@ -5,7 +5,7 @@
       "source": "https://axyomcore.ai/en/news-insights/tag/news",
       "feed_url": "https://axyomcore.ai/en/news-insights/tag/news/atom.xml",
       "title": "",
-      "saved": 1,
+      "saved": 0,
       "method": "discovered"
     },
     {
@@ -23,6 +23,13 @@
       "method": "discovered"
     },
     {
+      "source": "https://axyomcore.ai/en/news-insights/tag/news/atom.xml",
+      "feed_url": "https://axyomcore.ai/en/news-insights/tag/news/atom.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://axyomcore.ai/contact-us",
       "feed_url": "https://axyomcore.ai/contact-us",
       "title": "",
@@ -30,6 +37,6 @@
       "method": "none"
     }
   ],
-  "post_count": 1,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 15,
+  "fetched": "2026-10-17T14:53:57Z"
 }
