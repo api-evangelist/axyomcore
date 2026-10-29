@@ -64,18 +64,71 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Telecom infrastructure vendor — cloud-native 4G/5G mobile core and RAN network functions (CNFs)
-for communications service providers. Part of Lumine Group, carved out of Casa Systems.
+Telecom infrastructure software vendor, styled Axyom.Core, supplying cloud-native 4G and 5G mobile core and RAN network functions (CNFs) that run inside communications service provider networks. Product lines cover 4G core, Femto core, security gateway, RAN and full-MVNO deployments, with Red Hat OpenShift support. Part of Lumine Group following a carve-out from Casa Systems. NO PUBLIC API SURFACE: the company sells into operator networks through RFP and direct engagement, and publishes no developer portal, API documentation, or machine-readable contract. That is an absence of a PUBLIC interface, not an absence of APIs — mobile core network functions are API-driven by construction, but those interfaces reach customers under operator contracts rather than a public developer program.
 
-**Listed on APIs.io:** https://apis.io/providers/axyomcore/
-**Website:** https://axyomcore.ai
+**Areas:** Telecommunications · 5G Core · 4G/LTE Core · RAN · Mobile Network Functions · Cloud-Native · Kubernetes · MVNO · Network Security · Telco Infrastructure
 
-AxyomCore publishes **no public API surface** — no developer portal, no API documentation, no
-machine-readable contract. That is the absence of a *public* interface, not the absence of APIs:
-mobile core network functions are API-driven by construction, but those interfaces reach customers
-under operator contracts rather than a public developer program.
+## AxyomCore on APIs.io
 
-See [PROFILE.md](PROFILE.md) for what was verified and how.
+Everything profiled for AxyomCore is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/axyomcore/](https://apis.io/providers/axyomcore/)** — or go straight to one of the APIs or properties below.
 
-If you work at AxyomCore and this is wrong, or you publish a contract we have not found, open an
-issue here or email kin@apievangelist.com.
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://axyomcore.ai)
+- [Support](https://axyomcore.ai/contact-us)
+- [Blog](https://axyomcore.ai/en/news-insights/tag/news)
+
+## API Evangelist rating
+
+**Kin Score 2.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 39.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 0.0** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/axyomcore/](https://apis.io/providers/axyomcore/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AxyomCore: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/axyomcore/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
